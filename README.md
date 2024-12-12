@@ -1,6 +1,11 @@
 # Docker
 Esta es la tarea de Docker para el taller de tecnologías Disruptivas.
 
+Para poder utilizar la API se deben seguir los siguientes pasos:
+1. Entrar a la terminal en la mismo directorio donde se encuentren los dos archivos.
+2. Utilizar el comando: docker build -t <Colocar el nombre deseado> .
+3. Para ejecutar un contenedor con la imagen, escribir el siguiente comando en la terminal: docker run -p 5000:5000 <nombre colocado en el paso anterior>
+
 # Instrucciones de uso.
 ## Para poder visualizar todas las peliculas, ingresar a Postman y colocar la siguiente URL con el método GET:
 - http://127.0.0.1:5000/movies
